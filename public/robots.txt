@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://excel-chart-maker.netlify.app/sitemap.xml 
