@@ -1,0 +1,144 @@
+{
+  "header": {
+    "title": "Excel Diagramm-Ersteller",
+    "home": "Startseite",
+    "chartMaker": "Diagramm-Ersteller",
+    "language": "Sprache"
+  },
+  "home": {
+    "title": "Erstellen Sie Schöne Diagramme aus Excel-Daten",
+    "subtitle": "Verwandeln Sie Ihre Excel-Daten mit unserem benutzerfreundlichen Online-Tool in atemberaubende Diagramme und Visualisierungen.",
+    "getStarted": "Loslegen",
+    "features": {
+      "title": "Warum Unseren Excel Diagramm-Ersteller Wählen?",
+      "upload": {
+        "title": "Einfacher Datei-Upload",
+        "description": "Laden Sie einfach Ihre Excel-Dateien (.xlsx, .xls) hoch oder fügen Sie Daten direkt aus Excel ein. Unser Tool unterstützt verschiedene Datenformate und erkennt automatisch Ihre Datenstruktur."
+      },
+      "charts": {
+        "title": "Mehrere Diagrammtypen",
+        "description": "Erstellen Sie schöne Balkendiagramme, Liniendiagramme, Kreisdiagramme, Donut-Diagramme und mehr. Wählen Sie aus einer Vielzahl professioneller Diagrammstile und Anpassungsoptionen."
+      },
+      "export": {
+        "title": "Exportieren und Teilen",
+        "description": "Laden Sie Ihre Diagramme als hochwertige PNG- oder SVG-Dateien herunter. Perfekt für Präsentationen, Berichte und das Teilen mit Ihrem Team."
+      },
+      "responsive": {
+        "title": "Mobilfreundlich",
+        "description": "Greifen Sie von jedem Gerät auf unseren Diagramm-Ersteller zu. Unser responsives Design gewährleistet eine nahtlose Erfahrung auf Desktop, Tablet und Mobilgeräten."
+      },
+      "free": {
+        "title": "Kostenlos zu Verwenden",
+        "description": "Keine Registrierung erforderlich. Erstellen Sie unbegrenzt Diagramme kostenlos. Keine Wasserzeichen, keine Einschränkungen - nur reine Diagramm-Erstellungskraft."
+      },
+      "fast": {
+        "title": "Blitzschnell",
+        "description": "Generieren Sie Diagramme sofort mit unserer optimierten Verarbeitungs-Engine. Kein Warten, keine Verzögerungen - sehen Sie Ihre Daten in Sekunden visualisiert."
+      }
+    },
+    "howItWorks": {
+      "title": "Wie es Funktioniert",
+      "step1": {
+        "title": "Laden Sie Ihre Daten Hoch",
+        "description": "Laden Sie eine Excel-Datei hoch oder fügen Sie Ihre Daten direkt in unser Tool ein."
+      },
+      "step2": {
+        "title": "Wählen Sie den Diagrammtyp",
+        "description": "Wählen Sie aus verschiedenen Diagrammtypen, die Ihre Daten am besten repräsentieren."
+      },
+      "step3": {
+        "title": "Anpassen und Exportieren",
+        "description": "Passen Sie Farben, Beschriftungen und Styling an und exportieren Sie dann Ihr Diagramm."
+      }
+    }
+  },
+  "chartMaker": {
+    "title": "Excel Diagramm-Ersteller",
+    "uploadSection": {
+      "title": "Laden Sie Ihre Excel-Datei Hoch",
+      "description": "Laden Sie eine Excel-Datei (.xlsx, .xls, .csv) hoch, um schöne Diagramme zu erstellen",
+      "dragDrop": "Ziehen Sie Ihre Excel-Datei hierher oder klicken Sie zum Auswählen",
+      "supportedFormats": "Unterstützte Formate: .xlsx, .xls, .csv",
+      "uploading": "Hochladen...",
+      "uploadSuccess": "Datei erfolgreich hochgeladen!",
+      "uploadError": "Upload fehlgeschlagen. Bitte versuchen Sie es erneut."
+    },
+    "chartTypes": {
+      "title": "Diagrammtyp Wählen",
+      "bar": "Balkendiagramm",
+      "line": "Liniendiagramm",
+      "pie": "Kreisdiagramm",
+      "doughnut": "Donut-Diagramm"
+    },
+    "chartOptions": {
+      "title": "Diagrammoptionen",
+      "chartTitle": "Diagrammtitel",
+      "showLegend": "Legende Anzeigen",
+      "showGrid": "Raster Anzeigen",
+      "colors": "Farben"
+    },
+    "preview": {
+      "title": "Diagramm-Vorschau",
+      "noData": "Keine Daten verfügbar. Bitte laden Sie zuerst eine Datei hoch.",
+      "generating": "Diagramm wird generiert..."
+    },
+    "export": {
+      "title": "Diagramm Exportieren",
+      "downloadPNG": "PNG Herunterladen",
+      "downloadSVG": "SVG Herunterladen",
+      "downloadPDF": "PDF Herunterladen"
+    },
+    "dataTable": {
+      "title": "Datenvorschau",
+      "noData": "Keine Daten zum Anzeigen",
+      "rows": "{{count}} Zeilen geladen"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Excel Diagramm-Ersteller. Alle Rechte vorbehalten.",
+    "description": "Erstellen Sie schöne Diagramme aus Ihren Excel-Daten mit unserem kostenlosen Online-Tool.",
+    "quickLinks": "Schnelllinks",
+    "home": "Startseite",
+    "chartMaker": "Diagramm-Ersteller",
+    "features": "Funktionen",
+    "howItWorks": "Wie es Funktioniert",
+    "support": "Support",
+    "contact": "Kontakt",
+    "help": "Hilfe",
+    "faq": "FAQ",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen"
+  },
+  "common": {
+    "loading": "Laden...",
+    "error": "Etwas ist schiefgelaufen",
+    "retry": "Erneut Versuchen",
+    "close": "Schließen",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "view": "Anzeigen",
+    "download": "Herunterladen",
+    "upload": "Hochladen",
+    "next": "Weiter",
+    "previous": "Zurück",
+    "back": "Zurück",
+    "continue": "Fortfahren"
+  },
+  "languages": {
+    "en": "English",
+    "zh-CN": "简体中文",
+    "zh-TW": "繁體中文",
+    "ja": "日本語",
+    "ko": "한국어",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "it": "Italiano",
+    "ru": "Русский",
+    "ar": "العربية",
+    "pt": "Português"
+  }
+} 

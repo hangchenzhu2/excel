@@ -1,0 +1,144 @@
+{
+  "header": {
+    "title": "Excel圖表製作器",
+    "home": "首頁",
+    "chartMaker": "圖表製作",
+    "language": "語言"
+  },
+  "home": {
+    "title": "從Excel資料建立精美圖表",
+    "subtitle": "使用我們易於使用的線上工具，將您的Excel資料轉換為令人驚嘆的圖表和視覺化效果。",
+    "getStarted": "開始使用",
+    "features": {
+      "title": "為什麼選擇我們的Excel圖表製作器？",
+      "upload": {
+        "title": "簡單檔案上傳",
+        "description": "只需上傳您的Excel檔案（.xlsx，.xls）或直接從Excel貼上資料。我們的工具支援各種資料格式並自動檢測您的資料結構。"
+      },
+      "charts": {
+        "title": "多種圖表類型",
+        "description": "建立精美的長條圖、折線圖、圓餅圖、環形圖等。從各種專業圖表樣式和自訂選項中選擇。"
+      },
+      "export": {
+        "title": "匯出和分享",
+        "description": "將您的圖表下載為高品質的PNG或SVG檔案。非常適合簡報、報告和與團隊分享。"
+      },
+      "responsive": {
+        "title": "行動裝置友善",
+        "description": "從任何裝置存取我們的圖表製作器。我們的響應式設計確保在桌面、平板電腦和行動裝置上的無縫體驗。"
+      },
+      "free": {
+        "title": "免費使用",
+        "description": "無需註冊。免費建立無限圖表。無浮水印，無限制 - 純粹的圖表製作能力。"
+      },
+      "fast": {
+        "title": "閃電般快速",
+        "description": "使用我們最佳化的處理引擎即時產生圖表。無需等待，無延遲 - 幾秒鐘內看到您的資料視覺化。"
+      }
+    },
+    "howItWorks": {
+      "title": "工作原理",
+      "step1": {
+        "title": "上傳您的資料",
+        "description": "上傳Excel檔案或直接將資料貼上到我們的工具中。"
+      },
+      "step2": {
+        "title": "選擇圖表類型",
+        "description": "從最能代表您資料的各種圖表類型中選擇。"
+      },
+      "step3": {
+        "title": "自訂和匯出",
+        "description": "自訂顏色、標籤和樣式，然後匯出您的圖表。"
+      }
+    }
+  },
+  "chartMaker": {
+    "title": "Excel圖表製作器",
+    "uploadSection": {
+      "title": "上傳您的Excel檔案",
+      "description": "上傳Excel檔案（.xlsx，.xls，.csv）以建立精美圖表",
+      "dragDrop": "將Excel檔案拖放到此處，或點擊選擇",
+      "supportedFormats": "支援格式：.xlsx，.xls，.csv",
+      "uploading": "上傳中...",
+      "uploadSuccess": "檔案上傳成功！",
+      "uploadError": "上傳失敗。請重試。"
+    },
+    "chartTypes": {
+      "title": "選擇圖表類型",
+      "bar": "長條圖",
+      "line": "折線圖",
+      "pie": "圓餅圖",
+      "doughnut": "環形圖"
+    },
+    "chartOptions": {
+      "title": "圖表選項",
+      "chartTitle": "圖表標題",
+      "showLegend": "顯示圖例",
+      "showGrid": "顯示網格",
+      "colors": "顏色"
+    },
+    "preview": {
+      "title": "圖表預覽",
+      "noData": "無可用資料。請先上傳檔案。",
+      "generating": "產生圖表中..."
+    },
+    "export": {
+      "title": "匯出圖表",
+      "downloadPNG": "下載PNG",
+      "downloadSVG": "下載SVG",
+      "downloadPDF": "下載PDF"
+    },
+    "dataTable": {
+      "title": "資料預覽",
+      "noData": "無資料顯示",
+      "rows": "已載入{{count}}行"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Excel圖表製作器。保留所有權利。",
+    "description": "使用我們的免費線上工具從Excel資料建立精美圖表。",
+    "quickLinks": "快速連結",
+    "home": "首頁",
+    "chartMaker": "圖表製作",
+    "features": "功能特色",
+    "howItWorks": "工作原理",
+    "support": "支援",
+    "contact": "聯絡我們",
+    "help": "說明",
+    "faq": "常見問題",
+    "legal": "法律",
+    "privacy": "隱私權政策",
+    "terms": "服務條款"
+  },
+  "common": {
+    "loading": "載入中...",
+    "error": "發生錯誤",
+    "retry": "重試",
+    "close": "關閉",
+    "save": "儲存",
+    "cancel": "取消",
+    "delete": "刪除",
+    "edit": "編輯",
+    "view": "檢視",
+    "download": "下載",
+    "upload": "上傳",
+    "next": "下一步",
+    "previous": "上一步",
+    "back": "返回",
+    "continue": "繼續"
+  },
+  "languages": {
+    "en": "English",
+    "zh-CN": "简体中文",
+    "zh-TW": "繁體中文",
+    "ja": "日本語",
+    "ko": "한국어",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "it": "Italiano",
+    "ru": "Русский",
+    "ar": "العربية",
+    "pt": "Português"
+  }
+} 

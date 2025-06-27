@@ -1,11 +1,71 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const Home: React.FC = () => {
+  const { t } = useTranslation();
+  
   const features = [
-    { title: 'Upload Excel Files', description: 'Upload your Excel files directly (.xlsx, .xls, .csv) for instant chart creation' },
-    { title: 'Download Charts', description: 'Export your charts as high-quality PNG, SVG files or share with direct links' },
-    { title: 'Multiple Chart Types', description: 'Create 9 different chart types including bar, line, pie, radar, and advanced visualizations' }
+    { 
+      title: t('home.features.upload.title'), 
+      description: t('home.features.upload.description'),
+      icon: '📤',
+      color: 'blue'
+    },
+    { 
+      title: t('home.features.export.title'), 
+      description: t('home.features.export.description'),
+      icon: '💾',
+      color: 'green'
+    },
+    { 
+      title: t('home.features.charts.title'), 
+      description: t('home.features.charts.description'),
+      icon: '📊',
+      color: 'purple'
+    }
+  ];
+
+  const additionalFeatures = [
+    {
+      title: t('home.features.responsive.title'),
+      description: t('home.features.responsive.description'),
+      icon: '📱',
+      color: 'indigo'
+    },
+    {
+      title: t('home.features.free.title'),
+      description: t('home.features.free.description'),
+      icon: '🆓',
+      color: 'emerald'
+    },
+    {
+      title: t('home.features.fast.title'),
+      description: t('home.features.fast.description'),
+      icon: '⚡',
+      color: 'yellow'
+    }
+  ];
+
+  const howItWorksSteps = [
+    {
+      step: '1',
+      title: t('home.howItWorks.step1.title'),
+      description: t('home.howItWorks.step1.description'),
+      icon: '📤'
+    },
+    {
+      step: '2',
+      title: t('home.howItWorks.step2.title'), 
+      description: t('home.howItWorks.step2.description'),
+      icon: '📊'
+    },
+    {
+      step: '3',
+      title: t('home.howItWorks.step3.title'),
+      description: t('home.howItWorks.step3.description'),
+      icon: '🎨'
+    }
   ];
   
   const chartTypes = [
@@ -81,19 +141,16 @@ const Home: React.FC = () => {
             Free Online Tool
           </div>
           <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent leading-tight">
-            Excel Chart Maker
+            {t('home.title')}
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 mb-4 max-w-3xl mx-auto font-light">
-            Transform your Excel data into <span className="font-semibold text-blue-600">stunning visualizations</span>
+            {t('home.subtitle')}
           </p>
-          <p className="text-lg text-gray-600 mb-10 max-w-2xl mx-auto">
-            Create professional charts in seconds with our easy-to-use online tool. No software installation required.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-10">
             <Link to="/chart-maker">
               <button className="group px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all duration-300 text-lg font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                 <span className="flex items-center">
-                  Start Creating Charts
+                  {t('home.getStarted')}
                   <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                   </svg>
@@ -115,32 +172,87 @@ const Home: React.FC = () => {
       {/* Key Features Section */}
       <section className="py-16">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">Why Choose Our Chart Maker?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">{t('home.features.title')}</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Powerful features designed to make data visualization simple and professional
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {features.map((feature, index) => {
-            const icons = ['📤', '💾', '📊'];
-            const colors = ['blue', 'green', 'purple'];
-            return (
-              <div key={index} className="group relative">
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl blur opacity-25 group-hover:opacity-40 transition-opacity"></div>
-                <div className="relative bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 group-hover:border-gray-200">
-                  <div className={`w-16 h-16 bg-${colors[index]}-100 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}>
-                    <span className="text-3xl">{icons[index]}</span>
-                  </div>
-                  <h3 className="text-xl font-bold mb-3 text-gray-900">{feature.title}</h3>
-                  <p className="text-gray-600 leading-relaxed">{feature.description}</p>
-                  <div className={`mt-4 w-12 h-1 bg-gradient-to-r from-${colors[index]}-500 to-${colors[index]}-600 rounded-full`}></div>
+          {features.map((feature, index) => (
+            <div key={index} className="group relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl blur opacity-25 group-hover:opacity-40 transition-opacity"></div>
+              <div className="relative bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 group-hover:border-gray-200">
+                <div className={`w-16 h-16 bg-${feature.color}-100 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}>
+                  <span className="text-3xl">{feature.icon}</span>
                 </div>
+                <h3 className="text-xl font-bold mb-3 text-gray-900">{feature.title}</h3>
+                <p className="text-gray-600 leading-relaxed">{feature.description}</p>
+                <div className={`mt-4 w-12 h-1 bg-gradient-to-r from-${feature.color}-500 to-${feature.color}-600 rounded-full`}></div>
               </div>
-            );
-          })}
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Additional Features */}
+      <section className="py-16 bg-gray-50 rounded-3xl">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {additionalFeatures.map((feature, index) => (
+              <div key={index} className="text-center group">
+                <div className={`w-20 h-20 bg-${feature.color}-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform`}>
+                  <span className="text-4xl">{feature.icon}</span>
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-gray-900">{feature.title}</h3>
+                <p className="text-gray-600 leading-relaxed">{feature.description}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
       
+      {/* How It Works Section */}
+      <section className="py-20">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-blue-800 to-purple-800 bg-clip-text text-transparent">
+            {t('home.howItWorks.title')}
+          </h2>
+          <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+            Create professional charts in just three simple steps
+          </p>
+        </div>
+        
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
+          {/* Connection lines for desktop */}
+          <div className="hidden md:block absolute top-24 left-1/4 right-1/4 h-0.5 bg-gradient-to-r from-blue-300 to-purple-300"></div>
+          
+          {howItWorksSteps.map((step, index) => (
+            <div key={index} className="text-center relative">
+              {/* Step number */}
+              <div className="w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6 relative z-10">
+                {step.step}
+              </div>
+              
+              {/* Icon */}
+              <div className="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <span className="text-4xl">{step.icon}</span>
+              </div>
+              
+              <h3 className="text-2xl font-bold mb-4 text-gray-900">{step.title}</h3>
+              <p className="text-gray-600 leading-relaxed max-w-sm mx-auto">{step.description}</p>
+            </div>
+          ))}
+        </div>
+        
+        <div className="text-center mt-12">
+          <Link to="/chart-maker">
+            <button className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all duration-300 text-lg font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+              {t('home.getStarted')}
+            </button>
+          </Link>
+        </div>
+      </section>
+
       {/* Chart Types Showcase */}
       <section className="py-20 relative">
         <div className="absolute inset-0 bg-gradient-to-br from-gray-50 via-blue-50 to-purple-50 rounded-3xl"></div>
@@ -276,65 +388,6 @@ const Home: React.FC = () => {
                 ))}
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 使用指南 */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">How to Create Charts</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Get from data to beautiful charts in just three simple steps
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-            {[
-              {
-                step: '01',
-                icon: '📤',
-                title: 'Upload Your Data',
-                desc: 'Upload Excel files (.xlsx, .xls) or CSV files. Our system automatically detects columns and data types for optimal chart creation.',
-                color: 'blue'
-              },
-              {
-                step: '02',
-                icon: '🎯',
-                title: 'Choose Chart Type',
-                desc: 'Select from 9 different chart types. Each type is designed for specific data scenarios with helpful descriptions and use cases.',
-                color: 'green'
-              },
-              {
-                step: '03',
-                icon: '✨',
-                title: 'Customize & Export',
-                desc: 'Adjust colors, titles, and settings. Export your charts as PNG, SVG, or share them with direct links for presentations.',
-                color: 'purple'
-              }
-            ].map((step, index) => (
-              <div key={index} className="relative group">
-                <div className={`absolute top-0 left-0 text-8xl font-bold text-${step.color}-100 -z-10 group-hover:scale-110 transition-transform duration-300`}>
-                  {step.step}
-                </div>
-                <div className="relative z-10 pt-12">
-                  <div className={`w-20 h-20 bg-gradient-to-br from-${step.color}-400 to-${step.color}-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
-                    <span className="text-3xl">{step.icon}</span>
-                  </div>
-                  <h3 className="text-2xl font-bold mb-4 text-gray-900">{step.title}</h3>
-                  <p className="text-gray-600 leading-relaxed text-lg">
-                    {step.desc}
-                  </p>
-                </div>
-                {index < 2 && (
-                  <div className="hidden md:block absolute top-1/2 -right-6 transform -translate-y-1/2">
-                    <svg className="w-12 h-12 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                    </svg>
-                  </div>
-                )}
-              </div>
-            ))}
           </div>
         </div>
       </section>

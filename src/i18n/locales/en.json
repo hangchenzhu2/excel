@@ -1,0 +1,144 @@
+{
+  "header": {
+    "title": "Excel Chart Maker",
+    "home": "Home",
+    "chartMaker": "Chart Maker",
+    "language": "Language"
+  },
+  "home": {
+    "title": "Create Beautiful Charts from Excel Data",
+    "subtitle": "Transform your Excel data into stunning charts and visualizations with our easy-to-use online tool.",
+    "getStarted": "Get Started",
+    "features": {
+      "title": "Why Choose Our Excel Chart Maker?",
+      "upload": {
+        "title": "Easy File Upload",
+        "description": "Simply upload your Excel files (.xlsx, .xls) or paste data directly from Excel. Our tool supports various data formats and automatically detects your data structure."
+      },
+      "charts": {
+        "title": "Multiple Chart Types",
+        "description": "Create beautiful bar charts, line charts, pie charts, donut charts, and more. Choose from a variety of professional chart styles and customization options."
+      },
+      "export": {
+        "title": "Export & Share",
+        "description": "Download your charts as high-quality PNG or SVG files. Perfect for presentations, reports, and sharing with your team."
+      },
+      "responsive": {
+        "title": "Mobile Friendly",
+        "description": "Access our chart maker from any device. Our responsive design ensures a seamless experience on desktop, tablet, and mobile."
+      },
+      "free": {
+        "title": "Free to Use",
+        "description": "No registration required. Create unlimited charts for free. No watermarks, no limitations - just pure chart-making power."
+      },
+      "fast": {
+        "title": "Lightning Fast",
+        "description": "Generate charts instantly with our optimized processing engine. No waiting, no delays - see your data visualized in seconds."
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "step1": {
+        "title": "Upload Your Data",
+        "description": "Upload an Excel file or paste your data directly into our tool."
+      },
+      "step2": {
+        "title": "Choose Chart Type",
+        "description": "Select from various chart types that best represent your data."
+      },
+      "step3": {
+        "title": "Customize & Export",
+        "description": "Customize colors, labels, and styling, then export your chart."
+      }
+    }
+  },
+  "chartMaker": {
+    "title": "Excel Chart Maker",
+    "uploadSection": {
+      "title": "Upload Your Excel File",
+      "description": "Upload an Excel file (.xlsx, .xls, .csv) to create beautiful charts",
+      "dragDrop": "Drag and drop your Excel file here, or click to select",
+      "supportedFormats": "Supported formats: .xlsx, .xls, .csv",
+      "uploading": "Uploading...",
+      "uploadSuccess": "File uploaded successfully!",
+      "uploadError": "Upload failed. Please try again."
+    },
+    "chartTypes": {
+      "title": "Choose Chart Type",
+      "bar": "Bar Chart",
+      "line": "Line Chart",
+      "pie": "Pie Chart",
+      "doughnut": "Donut Chart"
+    },
+    "chartOptions": {
+      "title": "Chart Options",
+      "chartTitle": "Chart Title",
+      "showLegend": "Show Legend",
+      "showGrid": "Show Grid",
+      "colors": "Colors"
+    },
+    "preview": {
+      "title": "Chart Preview",
+      "noData": "No data available. Please upload a file first.",
+      "generating": "Generating chart..."
+    },
+    "export": {
+      "title": "Export Chart",
+      "downloadPNG": "Download PNG",
+      "downloadSVG": "Download SVG",
+      "downloadPDF": "Download PDF"
+    },
+    "dataTable": {
+      "title": "Data Preview",
+      "noData": "No data to display",
+      "rows": "{{count}} rows loaded"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Excel Chart Maker. All rights reserved.",
+    "description": "Create beautiful charts from your Excel data with our free online tool.",
+    "quickLinks": "Quick Links",
+    "home": "Home",
+    "chartMaker": "Chart Maker",
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "support": "Support",
+    "contact": "Contact",
+    "help": "Help",
+    "faq": "FAQ",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try Again",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "download": "Download",
+    "upload": "Upload",
+    "next": "Next",
+    "previous": "Previous",
+    "back": "Back",
+    "continue": "Continue"
+  },
+  "languages": {
+    "en": "English",
+    "zh-CN": "简体中文",
+    "zh-TW": "繁體中文",
+    "ja": "日本語",
+    "ko": "한국어",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "it": "Italiano",
+    "ru": "Русский",
+    "ar": "العربية",
+    "pt": "Português"
+  }
+} 

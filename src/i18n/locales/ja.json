@@ -1,0 +1,144 @@
+{
+  "header": {
+    "title": "Excelチャートメーカー",
+    "home": "ホーム",
+    "chartMaker": "チャート作成",
+    "language": "言語"
+  },
+  "home": {
+    "title": "Excelデータから美しいチャートを作成",
+    "subtitle": "使いやすいオンラインツールでExcelデータを素晴らしいチャートや視覚化に変換します。",
+    "getStarted": "開始する",
+    "features": {
+      "title": "なぜ私たちのExcelチャートメーカーを選ぶのか？",
+      "upload": {
+        "title": "簡単ファイルアップロード",
+        "description": "Excelファイル（.xlsx、.xls）をアップロードするか、Excelから直接データを貼り付けるだけです。私たちのツールは様々なデータ形式をサポートし、データ構造を自動検出します。"
+      },
+      "charts": {
+        "title": "複数のチャートタイプ",
+        "description": "美しい棒グラフ、折れ線グラフ、円グラフ、ドーナツグラフなどを作成します。様々なプロフェッショナルなチャートスタイルとカスタマイズオプションから選択できます。"
+      },
+      "export": {
+        "title": "エクスポートと共有",
+        "description": "チャートを高品質のPNGまたはSVGファイルとしてダウンロードします。プレゼンテーション、レポート、チームとの共有に最適です。"
+      },
+      "responsive": {
+        "title": "モバイルフレンドリー",
+        "description": "どのデバイスからでもチャートメーカーにアクセスできます。レスポンシブデザインにより、デスクトップ、タブレット、モバイルでシームレスな体験を保証します。"
+      },
+      "free": {
+        "title": "無料で使用",
+        "description": "登録不要。無制限にチャートを無料で作成できます。透かしなし、制限なし - 純粋なチャート作成パワー。"
+      },
+      "fast": {
+        "title": "稲妻のような速さ",
+        "description": "最適化された処理エンジンでチャートを瞬時に生成します。待機時間なし、遅延なし - 数秒でデータの視覚化を確認できます。"
+      }
+    },
+    "howItWorks": {
+      "title": "使い方",
+      "step1": {
+        "title": "データをアップロード",
+        "description": "Excelファイルをアップロードするか、データを直接ツールに貼り付けます。"
+      },
+      "step2": {
+        "title": "チャートタイプを選択",
+        "description": "データを最もよく表現する様々なチャートタイプから選択します。"
+      },
+      "step3": {
+        "title": "カスタマイズとエクスポート",
+        "description": "色、ラベル、スタイルをカスタマイズし、チャートをエクスポートします。"
+      }
+    }
+  },
+  "chartMaker": {
+    "title": "Excelチャートメーカー",
+    "uploadSection": {
+      "title": "Excelファイルをアップロード",
+      "description": "Excelファイル（.xlsx、.xls、.csv）をアップロードして美しいチャートを作成",
+      "dragDrop": "Excelファイルをここにドラッグ＆ドロップするか、クリックして選択",
+      "supportedFormats": "サポート形式：.xlsx、.xls、.csv",
+      "uploading": "アップロード中...",
+      "uploadSuccess": "ファイルのアップロードが成功しました！",
+      "uploadError": "アップロードに失敗しました。再試行してください。"
+    },
+    "chartTypes": {
+      "title": "チャートタイプを選択",
+      "bar": "棒グラフ",
+      "line": "折れ線グラフ",
+      "pie": "円グラフ",
+      "doughnut": "ドーナツグラフ"
+    },
+    "chartOptions": {
+      "title": "チャートオプション",
+      "chartTitle": "チャートタイトル",
+      "showLegend": "凡例を表示",
+      "showGrid": "グリッドを表示",
+      "colors": "色"
+    },
+    "preview": {
+      "title": "チャートプレビュー",
+      "noData": "利用可能なデータがありません。最初にファイルをアップロードしてください。",
+      "generating": "チャート生成中..."
+    },
+    "export": {
+      "title": "チャートをエクスポート",
+      "downloadPNG": "PNGをダウンロード",
+      "downloadSVG": "SVGをダウンロード",
+      "downloadPDF": "PDFをダウンロード"
+    },
+    "dataTable": {
+      "title": "データプレビュー",
+      "noData": "表示するデータがありません",
+      "rows": "{{count}}行が読み込まれました"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Excelチャートメーカー。全著作権所有。",
+    "description": "無料のオンラインツールでExcelデータから美しいチャートを作成します。",
+    "quickLinks": "クイックリンク",
+    "home": "ホーム",
+    "chartMaker": "チャート作成",
+    "features": "機能",
+    "howItWorks": "使い方",
+    "support": "サポート",
+    "contact": "お問い合わせ",
+    "help": "ヘルプ",
+    "faq": "よくある質問",
+    "legal": "法的事項",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約"
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "retry": "再試行",
+    "close": "閉じる",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "edit": "編集",
+    "view": "表示",
+    "download": "ダウンロード",
+    "upload": "アップロード",
+    "next": "次へ",
+    "previous": "前へ",
+    "back": "戻る",
+    "continue": "続行"
+  },
+  "languages": {
+    "en": "English",
+    "zh-CN": "简体中文",
+    "zh-TW": "繁體中文",
+    "ja": "日本語",
+    "ko": "한국어",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "it": "Italiano",
+    "ru": "Русский",
+    "ar": "العربية",
+    "pt": "Português"
+  }
+} 

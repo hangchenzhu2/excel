@@ -1,0 +1,144 @@
+{
+  "header": {
+    "title": "Créateur de Graphiques Excel",
+    "home": "Accueil",
+    "chartMaker": "Créateur de Graphiques",
+    "language": "Langue"
+  },
+  "home": {
+    "title": "Créez de Beaux Graphiques à partir de Données Excel",
+    "subtitle": "Transformez vos données Excel en graphiques et visualisations époustouflants avec notre outil en ligne facile à utiliser.",
+    "getStarted": "Commencer",
+    "features": {
+      "title": "Pourquoi Choisir Notre Créateur de Graphiques Excel ?",
+      "upload": {
+        "title": "Téléchargement de Fichier Facile",
+        "description": "Téléchargez simplement vos fichiers Excel (.xlsx, .xls) ou collez les données directement depuis Excel. Notre outil prend en charge divers formats de données et détecte automatiquement votre structure de données."
+      },
+      "charts": {
+        "title": "Types de Graphiques Multiples",
+        "description": "Créez de beaux graphiques en barres, graphiques linéaires, graphiques circulaires, graphiques en anneau et plus encore. Choisissez parmi une variété de styles de graphiques professionnels et d'options de personnalisation."
+      },
+      "export": {
+        "title": "Exporter et Partager",
+        "description": "Téléchargez vos graphiques en tant que fichiers PNG ou SVG de haute qualité. Parfait pour les présentations, rapports et partage avec votre équipe."
+      },
+      "responsive": {
+        "title": "Compatible Mobile",
+        "description": "Accédez à notre créateur de graphiques depuis n'importe quel appareil. Notre design réactif garantit une expérience fluide sur ordinateur de bureau, tablette et mobile."
+      },
+      "free": {
+        "title": "Gratuit à Utiliser",
+        "description": "Aucune inscription requise. Créez des graphiques illimités gratuitement. Pas de filigrane, pas de limitations - juste un pur pouvoir de création de graphiques."
+      },
+      "fast": {
+        "title": "Rapide comme l'Éclair",
+        "description": "Générez des graphiques instantanément avec notre moteur de traitement optimisé. Pas d'attente, pas de délais - voyez vos données visualisées en quelques secondes."
+      }
+    },
+    "howItWorks": {
+      "title": "Comment ça Marche",
+      "step1": {
+        "title": "Téléchargez Vos Données",
+        "description": "Téléchargez un fichier Excel ou collez vos données directement dans notre outil."
+      },
+      "step2": {
+        "title": "Choisissez le Type de Graphique",
+        "description": "Sélectionnez parmi divers types de graphiques qui représentent le mieux vos données."
+      },
+      "step3": {
+        "title": "Personnalisez et Exportez",
+        "description": "Personnalisez les couleurs, étiquettes et style, puis exportez votre graphique."
+      }
+    }
+  },
+  "chartMaker": {
+    "title": "Créateur de Graphiques Excel",
+    "uploadSection": {
+      "title": "Téléchargez Votre Fichier Excel",
+      "description": "Téléchargez un fichier Excel (.xlsx, .xls, .csv) pour créer de beaux graphiques",
+      "dragDrop": "Glissez et déposez votre fichier Excel ici, ou cliquez pour sélectionner",
+      "supportedFormats": "Formats supportés : .xlsx, .xls, .csv",
+      "uploading": "Téléchargement...",
+      "uploadSuccess": "Fichier téléchargé avec succès !",
+      "uploadError": "Échec du téléchargement. Veuillez réessayer."
+    },
+    "chartTypes": {
+      "title": "Choisir le Type de Graphique",
+      "bar": "Graphique en Barres",
+      "line": "Graphique Linéaire",
+      "pie": "Graphique Circulaire",
+      "doughnut": "Graphique en Anneau"
+    },
+    "chartOptions": {
+      "title": "Options du Graphique",
+      "chartTitle": "Titre du Graphique",
+      "showLegend": "Afficher la Légende",
+      "showGrid": "Afficher la Grille",
+      "colors": "Couleurs"
+    },
+    "preview": {
+      "title": "Aperçu du Graphique",
+      "noData": "Aucune donnée disponible. Veuillez d'abord télécharger un fichier.",
+      "generating": "Génération du graphique..."
+    },
+    "export": {
+      "title": "Exporter le Graphique",
+      "downloadPNG": "Télécharger PNG",
+      "downloadSVG": "Télécharger SVG",
+      "downloadPDF": "Télécharger PDF"
+    },
+    "dataTable": {
+      "title": "Aperçu des Données",
+      "noData": "Aucune donnée à afficher",
+      "rows": "{{count}} lignes chargées"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Créateur de Graphiques Excel. Tous droits réservés.",
+    "description": "Créez de beaux graphiques à partir de vos données Excel avec notre outil en ligne gratuit.",
+    "quickLinks": "Liens Rapides",
+    "home": "Accueil",
+    "chartMaker": "Créateur de Graphiques",
+    "features": "Fonctionnalités",
+    "howItWorks": "Comment ça Marche",
+    "support": "Support",
+    "contact": "Contact",
+    "help": "Aide",
+    "faq": "FAQ",
+    "legal": "Légal",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "retry": "Réessayer",
+    "close": "Fermer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "view": "Voir",
+    "download": "Télécharger",
+    "upload": "Télécharger",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "back": "Retour",
+    "continue": "Continuer"
+  },
+  "languages": {
+    "en": "English",
+    "zh-CN": "简体中文",
+    "zh-TW": "繁體中文",
+    "ja": "日本語",
+    "ko": "한국어",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "it": "Italiano",
+    "ru": "Русский",
+    "ar": "العربية",
+    "pt": "Português"
+  }
+} 
